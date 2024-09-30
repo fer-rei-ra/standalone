@@ -1,4 +1,4 @@
-# Standalone
+# DayZ Standalone [PT-BR]
 
 ## 1. Introdução
 
