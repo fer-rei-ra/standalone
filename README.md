@@ -7,7 +7,7 @@ Neste repositório você vai aprender como criar, trocar de mapa, adicionar mods
 ## 2. Ferramentas Necessárias
 
 - Windows
-- Editor de Texto (Notepad++ ou Visual Studio Code).
+- Editor de Texto ([Notepad++](https://notepad-plus-plus.org/downloads/) ou [Visual Studio Code](https://code.visualstudio.com/Download)).
 - 'DayZ Server Tools' na Steam.
 
 ## 3. Instalando o 'DayZ Server Tools'
