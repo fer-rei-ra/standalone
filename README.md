@@ -15,6 +15,6 @@ Para criar o nosso servidor vamos precisar das seguintes ferramentas, Windows 10
  4. Selecione 'Ferramentas'. [Imagem](https://prnt.sc/BnnGXbihF8ZC)
  5. Procure e instale 'DayZ Server'. [Imagem](https://prnt.sc/wRsCVFLRz33g)
 
-## 4. Criando o Servidor Local
+## 3. Criando o Servidor Local
 
 Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padrão ele irá para ```C:\Program Files (x86)\Steam\steamapps\common\DayZServer```. Porém, se você escolheu algum lugar diferente ou estiver esquecido onde instalou, você pode ir até a sua biblioteca da Steam, localizar o aplicativo, clicar com o botão direito nele, ir em propriedades e clicar em navegar pelos arquivos locais. Deste jeito você consegue achar a pasta raiz sem muitas dificuldades.
