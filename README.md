@@ -12,8 +12,8 @@ Siga as instruções abaixo para instalar o aplicativo 'DayZ Server'.
 
  1. Abra e faça o login na Steam.
  2. Vá até a aba Biblioteca.
- 3. Clique na aba que vai estar escrito 'Jogos' encima dos seus jogos. [Imagem](https://prnt.sc/AisqsDSwcNoy)
- 4. Selecione 'Ferramentas'. [Imagem](https://prnt.sc/BnnGXbihF8ZC)
+ 3. Clique na aba que vai estar escrito 'Jogos, localizada acima da sua lista de jogos. [Imagem](https://prnt.sc/AisqsDSwcNoy)
+ 4. Ative a alternativa 'Ferramentas'. [Imagem](https://prnt.sc/BnnGXbihF8ZC)
  5. Procure e instale 'DayZ Server'. [Imagem](https://prnt.sc/wRsCVFLRz33g)
 
 ## 3. Criando o Servidor Local
