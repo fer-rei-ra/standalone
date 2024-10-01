@@ -18,4 +18,4 @@ Siga as instruções abaixo para instalar o aplicativo 'DayZ Server'.
 
 ## 3. Criando o Servidor Local
 
-Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padrão ele irá para ```C:\Program Files (x86)\Steam\steamapps\common\DayZServer```. Porém, se você escolheu algum lugar diferente ou estiver esquecido onde instalou, você pode ir até a sua biblioteca da Steam, localizar o aplicativo, clicar com o botão direito nele, ir em propriedades e clicar em navegar pelos arquivos locais. Deste jeito você consegue achar a pasta raiz sem muitas dificuldades.
+Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padrão ele irá para ```C:\Program Files (x86)\Steam\steamapps\common\DayZServer```. Porém, se você escolheu algum lugar diferente ou estiver esquecido onde instalou, vá até a sua biblioteca da Steam, localize o aplicativo, clique com o botão direito nele, vá em propriedades e clique em navegar pelos arquivos locais. Deste jeito você consegue achar a pasta raiz sem muitas dificuldades.
