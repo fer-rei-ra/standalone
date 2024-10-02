@@ -1,4 +1,4 @@
-# DayZ Standalone [PT-BR]
+# DayZ Standalone [PT-BR] W.I.P.
 
 ## 1. Introdução
 
