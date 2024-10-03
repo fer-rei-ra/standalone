@@ -23,57 +23,42 @@ Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padr
 Crie um novo arquivo de texto na pasta raiz do aplicativo. Renomeie o arquivo para start.bat (removendo o .txt). Clique com o botão direito e vá em editar, se você der dois cliques, ele irá rodar os comandos dentro dele, no caso ainda não há nenhum, com o editor de texto da sua escolha copie os seguintes comandos:
 
 ```
-
 @echo off
 
 :start
+::Nome do Servidor (Este nome é apenas para o arquivo .bat, não será o nome que aparecerá no launcher)
+set serverName=DayZ server
 
-::Server name (This is just for the bat file)
-
-set serverName=Jims DayZ server
-
-::Server files location
-
+::Localização dos arquivos do servidor
 set serverLocation="C:\Program Files (x86)\Steam\steamapps\common\DayZServer"
 
-::Server Port
-
+::Porta do servidor
 set serverPort=2302
 
-::Server config
-
+::Arquivo de configuração do servidor
 set serverConfig=serverDZ.cfg
 
-::Logical CPU cores to use (Equal or less than available)
-
+::Núcleos da CPU à ser utilizado (O valor tem que ser igual ou menor do que os núcleos disponíveis)
 set serverCPU=2
 
-::Sets title for terminal (DONT edit)
-
+::Defina o título para o terminal (NÃO EDITE)
 title %serverName% batch
 
-::DayZServer location (DONT edit)
-
+::Localização do DayZServer (NÃO EDITE)
 cd "%serverLocation%"
-
 echo (%time%) %serverName% started.
 
-::Launch parameters (edit end: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=)
-
+::Parâmetros de inicialização (edite no final: -config=|-port=|-profiles=|-doLogs|-adminLog|-netLog|-freezeCheck|-filePatching|-BEpath=|-cpuCount=)
 start "DayZ Server" /min "DayZServer_x64.exe" -config=%serverConfig% -port=%serverPort% -cpuCount=%serverCPU% -dologs -adminlog -netlog -freezecheck
 
-::Time in seconds before kill server process (14400 = 4 hours)
-
+::Tempo em segundos para desligar o servidor (14400 = 4 horas)
 timeout 14390
-
 taskkill /im DayZServer_x64.exe /F
 
-::Time in seconds to wait before..
-
+::Tempo em segundos de espera antes de entrar no servidor
 timeout 10
 
-::Go back to the top and repeat the whole cycle again
-
+::Comando para o servidor continuar em funcionamento (NÃO EDITE)
 goto start 
 
 ```
