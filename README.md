@@ -71,48 +71,48 @@ Dentro da pasta raiz do aplicativo existe um arquivo chamado "serverDZ.cfg", cli
 
 
 ```
-hostname = "EXAMPLE NAME";			// Server name
-password = "";						// Password to connect to the server
-passwordAdmin = "";					// Password to become a server admin
+hostname = "EXAMPLE NAME";			// Nome do servidor
+password = "";				        // Senha para entrar no servidor
+passwordAdmin = "";				// Senha para entrar como Administrador
 
-enableWhitelist = 0;				// Enable/disable whitelist (value 0-1)
-disableBanlist = false;				// Disables the usage of ban.txt (default: false)
-disablePrioritylist = false;		// Disables usage of priority.txt (default: false)
+enableWhitelist = 0;				// Habilita ou Desabilita whitelist (1 = Habilitado, 0 = Desabilitado)
+disableBanlist = false;				// Desativa o uso do ban.txt (Padrão = false)
+disablePrioritylist = false;			// Desativa o uso do priority.txt (Padrão = false)
 
-maxPlayers = 60;					// Maximum amount of players
+maxPlayers = 60;				// Número máximo de jogadores
 
-verifySignatures = 2;				// Verifies .pbos against .bisign files. (only 2 is supported)
+verifySignatures = 2;				//  Verifica os arquivos .pbos em relação aos arquivos .bisign (Apenas o 2 é suportado)
 
-forceSameBuild = 1;					// When enabled, the server will allow the connection only to clients with same the .exe revision as the server (value 0-1)
+forceSameBuild = 1;				// Quando ativado, o servidor permitirá a conexão somente de clientes com a mesma versão do .exe do servidor (1 = Habilitado, 0 = Desabilitado)
 
-disableVoN = 0;						// Enable/disable voice over network (value 0-1)
-vonCodecQuality = 20;				// Voice over network codec quality, the higher the better (values 0-20)
+disableVoN = 0;					// Habilita ou Desabilita o Voice over Network, ou seja, comunicação por voz (1 = Habilitado, 0 = Desabilitado)
+vonCodecQuality = 20;				// Qualidade do codec de voz baseado na rede, quanto maior, melhor (Valores de 0 à 20)
 
-disable3rdPerson = 0;				// Toggles the 3rd person view for players (value 0-1)
-disableCrosshair = 0;				// Toggles the cross-hair (value 0-1)
+disable3rdPerson = 0;				// Habilita ou Desabilita a visualização em terceira pessoa para os jogadores (1 = Habilitado, 0 = Desabilitado)
+disableCrosshair = 0;				// Habilita ou Desabilita a crosshair, ou seja, a mira (1 = Habilitado, 0 = Desabilitado)
 
-serverTime = "SystemTime";			// Initial in-game time of the server. "SystemTime" means the local time of the machine.
-									// Another possibility is to set the time to some value in "YYYY/MM/DD/HH/MM" format, e.g "2015/4/8/17/23".
+serverTime = "SystemTime";			// Horário em que o jogo irá começar. "SystemTime" significa o horário local do computador.
+						// Outra possibilidade é definir a hora como qualquer valor no formato "YYYY/MM/DD/HH/MM". Exemplo: "2015/4/8/17/23".
 
 serverTimeAcceleration = 1;			// Accelerated Time - The numerical value being a multiplier (0.1-64).
-									// Thus, in case it is set to 24, time would move 24 times faster than normal. An entire day would pass in one hour.
+						// Thus, in case it is set to 24, time would move 24 times faster than normal. An entire day would pass in one hour.
 
-serverNightTimeAcceleration = 1;	// Accelerated Nigh Time - The numerical value being a multiplier (0.1-64) and also multiplied by serverTimeAcceleration value.
-									// Thus, in case it is set to 4 and serverTimeAcceleration is set to 2, night time would move 8 times faster than normal.
-									// An entire night would pass in 3 hours.
+serverNightTimeAcceleration = 1;		// Accelerated Nigh Time - The numerical value being a multiplier (0.1-64) and also multiplied by serverTimeAcceleration value.
+						// Thus, in case it is set to 4 and serverTimeAcceleration is set to 2, night time would move 8 times faster than normal.
+						// An entire night would pass in 3 hours.
 
 serverTimePersistent = 0;			// Persistent Time (value 0-1) - The actual server time is saved to storage, so when active, the next server start will use the saved time value.
 
 guaranteedUpdates = 1;				// Communication protocol used with game server (use only number 1)
 
-loginQueueConcurrentPlayers = 5;	// The number of players concurrently processed during the login process.
-									// Should prevent massive performance drop during connection when a lot of people are connecting at the same time.
+loginQueueConcurrentPlayers = 5;		// The number of players concurrently processed during the login process.
+						// Should prevent massive performance drop during connection when a lot of people are connecting at the same time.
 
 loginQueueMaxPlayers = 500;			// The maximum number of players that can wait in login queue
 
-instanceId = 1;						// DayZ server instance id, to identify the number of instances per box and their storage folders with persistence files
+instanceId = 1;					// DayZ server instance id, to identify the number of instances per box and their storage folders with persistence files
 
-storageAutoFix = 1;					// Checks if the persistence files are corrupted and replaces corrupted ones with empty ones (value 0-1)
+storageAutoFix = 1;				// Checks if the persistence files are corrupted and replaces corrupted ones with empty ones (value 0-1)
 
 class Missions
 {
