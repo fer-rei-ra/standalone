@@ -20,7 +20,7 @@ Siga as instruções abaixo para instalar o aplicativo 'DayZ Server'.
 
 Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padrão ele irá para ```C:\Program Files (x86)\Steam\steamapps\common\DayZServer```. Porém, se você escolheu algum lugar diferente ou estiver esquecido onde instalou, vá até a sua biblioteca da Steam, localize o aplicativo, clique com o botão direito nele, vá em propriedades e clique em navegar pelos arquivos locais. Deste jeito você consegue achar a pasta raiz sem muitas dificuldades.
 
-Crie um novo arquivo de texto na pasta raiz do aplicativo. Renomeie o arquivo para start.bat (removendo o .txt). Clique com o botão direito e vá em editar, se você der dois cliques, ele irá rodar os comandos dentro dele, no caso ainda não há nenhum, com o editor de texto da sua escolha copie os seguintes comandos:
+Crie um novo arquivo de texto na pasta raiz do aplicativo. Renomeie o arquivo para start.bat (removendo o .txt). Clique com o botão direito e vá em editar (se você der dois cliques, ele irá rodar os comandos dentro dele, no caso ainda não há nenhum), com o editor de texto da sua escolha, copie os seguintes comandos:
 
 ```
 @echo off
