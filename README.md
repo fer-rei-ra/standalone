@@ -67,7 +67,7 @@ goto start
 
 ### Configurando o "serverDZ.cfg"
 
-Dentro da pasta raiz do aplicativo existe um arquivo chamado "serverDZ.cfg", clique para editar o arquivo com o editor de texto de sua escolha e, usando como base os comandos que estão presentes abaixo, edite de acordo com as suas preferências.
+Dentro da pasta raiz do aplicativo existe um arquivo chamado "serverDZ.cfg", clique para abrir com o seu editor de texto e cole os comandos abaixo, se você apenas copiar e colar o servidor irá funcionar normalmente, mas se você quiser editar algo fique a vontade.
 
 
 ```
