@@ -6,7 +6,7 @@ Neste repositório você vai aprender como criar, trocar de mapa, adicionar mods
  
 Para criar o nosso servidor vamos precisar das seguintes ferramentas: Windows 10 ou superior, um editor de texto da sua preferência para configurar os arquivos do servidor, se você não conhece nenhum eu recomendo o [Notepad++](https://notepad-plus-plus.org/downloads/) ou [Visual Studio Code](https://code.visualstudio.com/Download), e, para finalizar, vamos precisar do aplicativo 'DayZ Server' que vamos instalar pela Steam.
 
-## 2. Instalando o 'DayZ Server'
+## 2. Como instalar o 'DayZ Server'
 
 Siga as instruções abaixo para instalar o aplicativo 'DayZ Server'.
 
@@ -16,7 +16,7 @@ Siga as instruções abaixo para instalar o aplicativo 'DayZ Server'.
  4. Ative a alternativa 'Ferramentas'. [Imagem](https://prnt.sc/BnnGXbihF8ZC)
  5. Procure e instale o aplicativo 'DayZ Server'. [Imagem](https://prnt.sc/wRsCVFLRz33g)
 
-## 3. Criando o Servidor Local
+## 3. Como iniciar o Servidor Local
 
 Primeiramente, localize onde você instalou o aplicativo 'DayZ Server'. Por padrão ele irá para ```C:\Program Files (x86)\Steam\steamapps\common\DayZServer```. Porém, se você escolheu algum lugar diferente ou estiver esquecido onde instalou, vá até a sua biblioteca da Steam, localize o aplicativo, clique com o botão direito nele, vá em propriedades e clique em navegar pelos arquivos locais. Deste jeito você consegue achar a pasta raiz sem muitas dificuldades.
 
@@ -124,3 +124,6 @@ class Missions
 };
 
 ```
+
+## 4. Como trocar o mapa do seu servidor
+
